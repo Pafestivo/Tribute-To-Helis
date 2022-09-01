@@ -7,7 +7,6 @@ body {
     min-height: 100vh;
     margin: 0;
     color: #fff;
-    overflow-x: hidden;
   }
   
 a {
@@ -89,7 +88,7 @@ nav ul li {
     display: block;
     margin: 0 0.2rem;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 nav ul li a:hover {

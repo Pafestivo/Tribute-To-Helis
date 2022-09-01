@@ -7,7 +7,6 @@ body {
     min-height: 100vh;
     margin: 0;
     color: #fff;
-    overflow-x: hidden;
   }
   
 a {
@@ -22,6 +21,7 @@ header {
     background-color: #000;
     display: flex;
     justify-content: space-between;
+    max-height: 100px;
     /* Position fixed makes the header stick to the top even when scrolling down. */
     position: fixed;
     width: 100%;
@@ -64,8 +64,7 @@ header {
 
 header h1 {
     margin: auto;
-    font-size: 4rem;
-    letter-spacing: 0.1rem;
+    font-size: 5rem;
 }
 
 header li {
@@ -89,7 +88,6 @@ nav ul li {
     display: block;
     margin: 0 0.2rem;
     padding: 1rem;
-    font-size: 1.2rem;
 }
 
 nav ul li a:hover {
