@@ -38,7 +38,7 @@ header {
 }
 
 #home:hover {
-    /* Unline block, inline-block doesn't add a line-break after the element, so it can sit next to other elements. */
+    /* Unlike block, inline-block doesn't add a line-break after the element, so it can sit next to other elements. */
     display: inline-block;
     cursor: pointer;
     /* I used transform scale rather then font-size, because transform will not change the size the elements takes. */
@@ -100,7 +100,7 @@ nav ul li a:hover {
 /* End of header editing */
 
 main {
-    padding-top: 10vh;
+    padding-top: 15vh;
 }
 
 /* Making fading hrs across the page. */
