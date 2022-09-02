@@ -125,10 +125,6 @@ h2 {
     font-size:2.5rem;
 }
 
-#origin {
-    margin-bottom: 12px;
-}
-
 #tribute-info {
     display: block;
     margin: 0 auto;
@@ -159,7 +155,6 @@ h2 {
 
 .ms-list li {
     padding-bottom: 1vh;
-    font-size: 1.2rem;
 }
 /* End of milestones area */
 

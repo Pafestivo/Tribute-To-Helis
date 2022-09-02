@@ -121,22 +121,13 @@ main {
 /* End of image area */
 
 /* Origin area */
-h2 {
-    font-size:2.5rem;
-}
-
-#origin {
-    margin-bottom: 12px;
-}
-
 #tribute-info {
     display: block;
     margin: 0 auto;
     max-width: 800px;
     padding: 0 50px;
     text-align: center;
-    font-size: 1.2rem;
-    line-height: 20px;
+    line-height: 40px;
 }
 /* End of origin area */
 
@@ -159,7 +150,6 @@ h2 {
 
 .ms-list li {
     padding-bottom: 1vh;
-    font-size: 1.2rem;
 }
 /* End of milestones area */
 
