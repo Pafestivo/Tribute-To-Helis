@@ -1,8 +1,3 @@
-* {
-/* Adding a scroll effect when clicking on links from the header menu. */
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: sans-serif;
     background-image: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/CBA32VYG674X1580163446749.jpg");
@@ -145,7 +140,7 @@ main {
 /* External links area */
 
 #external-links {
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 
 #external-p {

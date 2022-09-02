@@ -1,8 +1,3 @@
-* {
-/* Adding a scroll effect when clicking on links from the header menu. */
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: sans-serif;
     background-image: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/CBA32VYG674X1580163446749.jpg");
@@ -12,7 +7,6 @@ body {
     min-height: 100vh;
     margin: 0;
     color: #fff;
-    /* disabling the horizontal scroll on the page. */
     overflow-x: hidden;
   }
   
@@ -43,7 +37,6 @@ header {
     margin-left: 2vw;
 }
 
- /* Changed all the unique hover effects and made a class to shorten the code a bit */
 .hover-effect:hover {
     transform: scale(1.1);
 }
@@ -100,76 +93,6 @@ main {
     padding-top: 15vh;
 }
 
-/* Image area */
-#img-div {
-    text-align: center;
-    width: 100%;
-}
-
-#img-div img {
-    display: block;
-    margin: 0 auto;
-    /* Making the image size versatile, depends on screen width. */
-    width: max(400px, 40vw);
-    border-radius: 30px;
-}
-
-#img-div p {
-    margin-top: 1vh;
-    font-size: 1.5vw;
-}
-/* End of image area */
-
-/* Milestones area */
-.center-txt {
-    text-align: center;
-}
-
-#milestones {
-    text-align: center;
-    margin-bottom: 1.5vh;
-}
-
-.ms-list {
-    margin: 0 auto;
-    /* Added a max width for the list to make sure it has a fixed location on the page. */
-    max-width: 500px;
-    text-align: left;
-}
-
-.ms-list li {
-    padding-bottom: 1vh;
-}
-/* End of milestones area */
-
-/* External links area */
-
-#external-links {
-    margin-bottom: 8px;
-}
-
-#external-p {
-    display: block;
-    margin: 0 auto;
-    max-width: 500px;
-    text-align: center;
-}
-
-h4 {
-    margin-bottom: 1vh;
-}
-
-.link-list {
-    margin-top: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.link-list li {
-    padding-bottom: 0.3vh;
-}
-/* End of external links area */
-
 /* Making fading hrs across the page. */
 hr {
     position: relative;
@@ -196,7 +119,63 @@ hr:before {
     top: 50%;
     z-index: 1;
 }
-/* End of hr effects */
+
+#img-div {
+    text-align: center;
+    width: 100%;
+}
+
+#img-div img {
+    display: block;
+    margin: 0 auto;
+    width: max(400px, 40vw);
+    border-radius: 30px;
+}
+
+#img-div p {
+    margin-top: 1vh;
+    font-size: 1.5vw;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+#milestones {
+    text-align: center;
+    margin-bottom: 1.5vh;
+}
+
+.ms-list {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+.ms-list li {
+    padding-bottom: 1vh;
+}
+
+#external-p {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;;
+    text-align: left;
+}
+
+h4 {
+    margin-bottom: 1vh;
+}
+
+.link-list {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link-list li {
+    padding-bottom: 0.3vh;
+}
 
 
 

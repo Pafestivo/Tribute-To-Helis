@@ -1,7 +1,8 @@
-* {
-/* Adding a scroll effect when clicking on links from the header menu. */
-    scroll-behavior: smooth;
-}
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
 
 body {
     font-family: sans-serif;
