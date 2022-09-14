@@ -8,8 +8,6 @@ body {
     background-image: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/CBA32VYG674X1580163446749.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100vw;
-    min-height: 100vh;
     margin: 0;
     color: #fff;
     /* disabling the horizontal scroll on the page. */
@@ -22,13 +20,12 @@ a {
     color: #fff;
 }
 
-
 /* Start of header editing */
 header {
     background-color: #000;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     /* Position fixed makes the header stick to the top even when scrolling down. */
+    grid-template-columns: repeat(3, 1fr);
     position: fixed;
     width: 100%;
     /* Top:0 makes sure the element is displayed above everything else. */
@@ -39,30 +36,15 @@ header {
 #home {
     /* rem will size the text based on the size of the html element, while em will size the text based on the parent element. */
     font-size: 2rem;
-    margin: auto 0;
     margin-left: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
  /* Changed all the unique hover effects and made a class to shorten the code a bit */
 .hover-effect:hover {
-    transform: scale(1.1);
-}
-
-/* dummy div for the right side of the header */
-.placeholder-right {
-    display: flex;
-    /* basis and grow making sure each div takes half of the header, that the h1 is centered in the middle between them. */
-    flex-basis: 0;
-    flex-grow: 1;
-    justify-content: start;
-}
-
-/* dummy div for the left side of the header  */
-.placeholder-left {
-    display: flex;
-    flex-basis: 0;
-    flex-grow: 1;
-    justify-content: end;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
 }
 
 header h1 {
@@ -71,27 +53,19 @@ header h1 {
     letter-spacing: 0.1rem;
 }
 
-header li {
-    /* Removing the bullet points from the navigation list. */
-    list-style: none; 
-}
-
 nav {
-    margin: auto 0;
-    padding-right: 2vw;
-}
-
-nav ul {
     display: flex;
+    justify-content: space-evenly;
+    justify-self: end;
     align-items: center;
-    margin-block: 2vh;
-    padding-inline-start: 0;
+    gap: 1rem;
+    padding-right: 1rem;
 }
 
-nav ul li {
+nav a {
     display: block;
     margin: 0 0.2rem;
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 1.2rem;
 }
 /* End of header editing */
