@@ -40,6 +40,20 @@ header {
     margin-top: auto;
     margin-bottom: auto;
 }
+/* Mobile media query  */
+@media only screen and (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        align-items: center;
+    }
+
+    #home {
+        margin: 0;
+        margin-top: 10px;
+    }
+}
 
  /* Changed all the unique hover effects and made a class to shorten the code a bit */
 .hover-effect:hover {
@@ -92,7 +106,6 @@ main {
     margin-top: 1vh;
     font-size: 1.5vw;
 }
-
 /* End of image area */
 
 /* Origin area */
@@ -165,43 +178,6 @@ h4 {
     padding-bottom: 0.3vh;
 }
 /* End of external links area */
-
-/* Mobile media query  */
-@media only screen and (max-width: 700px) {
-    header {
-        display: flex;
-        flex-direction: column;
-        position: static;
-        align-items: center;
-    }
-
-    #home {
-        display: none;
-    }
-
-    header h1 {
-        margin: 0;
-        letter-spacing: normal;
-    }
-
-    nav {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    #img-div p {
-        font-size: 1.2rem;
-    }
-
-    .link-list li:first-child {
-        padding-top: 5px;
-    }
-
-    .link-list li {
-        padding-bottom: 10px;
-    }
-}
-/* End mobile media query */
 
 /* Making fading hrs across the page. */
 hr {

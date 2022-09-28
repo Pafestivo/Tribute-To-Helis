@@ -165,7 +165,6 @@ h4 {
     padding-bottom: 0.3vh;
 }
 /* End of external links area */
-
 /* Mobile media query  */
 @media only screen and (max-width: 700px) {
     header {
@@ -201,7 +200,6 @@ h4 {
         padding-bottom: 10px;
     }
 }
-/* End mobile media query */
 
 /* Making fading hrs across the page. */
 hr {

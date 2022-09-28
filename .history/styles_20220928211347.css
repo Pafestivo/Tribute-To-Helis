@@ -52,6 +52,23 @@ header h1 {
     font-size: 4rem;
     letter-spacing: 0.1rem;
 }
+/* Mobile media query  */
+@media only screen and (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        align-items: center;
+    }
+
+    #home {
+        margin: 15px 0 10px 0;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+}
 
 nav {
     display: flex;
@@ -92,7 +109,6 @@ main {
     margin-top: 1vh;
     font-size: 1.5vw;
 }
-
 /* End of image area */
 
 /* Origin area */
@@ -165,43 +181,6 @@ h4 {
     padding-bottom: 0.3vh;
 }
 /* End of external links area */
-
-/* Mobile media query  */
-@media only screen and (max-width: 700px) {
-    header {
-        display: flex;
-        flex-direction: column;
-        position: static;
-        align-items: center;
-    }
-
-    #home {
-        display: none;
-    }
-
-    header h1 {
-        margin: 0;
-        letter-spacing: normal;
-    }
-
-    nav {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    #img-div p {
-        font-size: 1.2rem;
-    }
-
-    .link-list li:first-child {
-        padding-top: 5px;
-    }
-
-    .link-list li {
-        padding-bottom: 10px;
-    }
-}
-/* End mobile media query */
 
 /* Making fading hrs across the page. */
 hr {
